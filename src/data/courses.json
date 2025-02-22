@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "General English",
+    "levels": [
+      {
+        "id": "A1-A2",
+        "title": "Beginner",
+        "modules": [
+          {
+            "id": 1,
+            "title": "Module 1: Basics",
+            "lessons": [
+              {
+                "id": "1-1",
+                "title": "Greetings",
+                "content": "Learn to say hello and goodbye."
+              },
+              {
+                "id": "1-2",
+                "title": "Numbers",
+                "content": "Count from 1 to 10."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
