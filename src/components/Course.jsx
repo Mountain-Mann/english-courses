@@ -5,7 +5,7 @@ function Course({ course }) {
     <div className="course">
       <h2>{course.title}</h2>
       {course.levels.map(level => (
-        <Level key={level.id} level={level} />
+        <Level key={level.id} level={level} courseId={course.id} />
       ))}
     </div>
   );

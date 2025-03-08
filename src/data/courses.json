@@ -9,19 +9,364 @@
         "modules": [
           {
             "id": 1,
-            "title": "Module 1: Basics",
+            "title": "Module 1: Alphabet, Greetings, and Basics",
             "lessons": [
               {
                 "id": "1-1",
-                "title": "Greetings",
-                "content": "Learn to say hello and goodbye."
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "The Alphabet - Part 1 (A-M)",
+                "content": "Welcome to your first English lesson! I’m so happy you’re here. Learning English is fun and exciting, and you’re taking a big step today. This lesson is all about the alphabet; the building blocks of English. Let’s get started! <br><br> The English alphabet has 26 letters. These letters are like little tools; they help us make words, read, and speak.<br><br>Today, we’ll learn the first 13 letters: A to M. Each letter has a name and a sound. For example, the name of the letter 'B' is 'bee' and makes a 'b' sound, like in 'ball.' This is important! You’ll hear the names and sounds in the grid below. Let’s practice together! <br><br> Click each letter to hear its name and sound. Say them out loud with me! Try it a few times to feel comfortable.",
+                "letters": [
+                  { "letter": "a", "word": "apple", "image": "/slides/slide-a.PNG", "name": "/audio/letters/a-name.m4a", "sound": "/audio/letters/a-sound.m4a" },
+                  { "letter": "b", "word": "banana", "image": "/slides/slide-b.PNG", "name": "/audio/letters/b-name.m4a", "sound": "/audio/letters/b-sound.m4a" },
+                  { "letter": "c", "word": "cat", "image": "/slides/slide-c.PNG", "name": "/audio/letters/c-name.m4a", "sound": "/audio/letters/c-sound.m4a" },
+                  { "letter": "d", "word": "dog", "image": "/slides/slide-d.png", "name": "/audio/letters/d-name.m4a", "sound": "/audio/letters/d-sound.m4a" },
+                  { "letter": "e", "word": "elephant", "image": "/slides/slide-e.png", "name": "/audio/letters/e-name.m4a", "sound": "/audio/letters/e-sound.m4a" },
+                  { "letter": "f", "word": "fish", "image": "/slides/slide-f.png", "name": "/audio/letters/f-name.m4a", "sound": "/audio/letters/f-sound.m4a" },
+                  { "letter": "g", "word": "giraffe", "image": "/slides/slide-g.png", "name": "/audio/letters/g-name.m4a", "sound": "/audio/letters/g-sound.m4a" },
+                  { "letter": "h", "word": "hat", "image": "/slides/slide-h.png", "name": "/audio/letters/h-name.m4a", "sound": "/audio/letters/h-sound.m4a" },
+                  { "letter": "i", "word": "igloo", "image": "/slides/slide-i.png", "name": "/audio/letters/i-name.m4a", "sound": "/audio/letters/i-sound.m4a" },
+                  { "letter": "j", "word": "jelly", "image": "/slides/slide-j.png", "name": "/audio/letters/j-name.m4a", "sound": "/audio/letters/j-sound.m4a" },
+                  { "letter": "k", "word": "kite", "image": "/slides/slide-k.png", "name": "/audio/letters/k-name.m4a", "sound": "/audio/letters/k-sound.m4a" },
+                  { "letter": "l", "word": "lion", "image": "/slides/slide-l.png", "name": "/audio/letters/l-name.m4a", "sound": "/audio/letters/l-sound.m4a" },
+                  { "letter": "m", "word": "monkey", "image": "/slides/slide-m.png", "name": "/audio/letters/m-name.m4a", "sound": "/audio/letters/m-sound.m4a" }
+                ],
+                "words": [
+                  { "word": "apple", "image": "/slides/slide-a.PNG", "word_audio": "/audio/words/apple.m4a" },
+                  { "word": "banana", "image": "/slides/slide-b.PNG", "word_audio": "/audio/words/banana.m4a" },
+                  { "word": "cat", "image": "/slides/slide-c.PNG", "word_audio": "/audio/words/cat.m4a" },
+                  { "word": "dog", "image": "/slides/slide-d.png", "word_audio": "/audio/words/dog.m4a" },
+                  { "word": "elephant", "image": "/slides/slide-e.png", "word_audio": "/audio/words/elephant.m4a" },
+                  { "word": "fish", "image": "/slides/slide-f.png", "word_audio": "/audio/words/fish.m4a" },
+                  { "word": "giraffe", "image": "/slides/slide-g.png", "word_audio": "/audio/words/giraffe.m4a" },
+                  { "word": "hat", "image": "/slides/slide-h.png", "word_audio": "/audio/words/hat.m4a" },
+                  { "word": "igloo", "image": "/slides/slide-i.png", "word_audio": "/audio/words/igloo.m4a" },
+                  { "word": "jelly", "image": "/slides/slide-j.png", "word_audio": "/audio/words/jelly.m4a" },
+                  { "word": "kite", "image": "/slides/slide-k.png", "word_audio": "/audio/words/kite.m4a" },
+                  { "word": "lion", "image": "/slides/slide-l.png", "word_audio": "/audio/words/lion.m4a" },
+                  { "word": "monkey", "image": "/slides/slide-m.png", "word_audio": "/audio/words/monkey.m4a" }
+                ],
+                "exercises": [
+                  {
+                    "type": "matching",
+                    "title": "Match Letter to Word",
+                    "pairs": [
+                      { "letter": "a", "word": "apple" },
+                      { "letter": "b", "word": "banana" },
+                      { "letter": "c", "word": "cat" },
+                      { "letter": "d", "word": "dog" },
+                      { "letter": "e", "word": "elephant" },
+                      { "letter": "f", "word": "fish" },
+                      { "letter": "g", "word": "giraffe" }
+                    ]
+                  },
+                  {
+                    "type": "dragDrop",
+                    "title": "Drag Letters to Words",
+                    "items": [
+                      { "letter": "h", "word": "hat" },
+                      { "letter": "i", "word": "igloo" },
+                      { "letter": "j", "word": "jelly" },
+                      { "letter": "k", "word": "kite" },
+                      { "letter": "l", "word": "lion" },
+                      { "letter": "m", "word": "monkey" }
+                    ]
+                  },
+                  {
+                    "type": "listenChoose",
+                    "title": "Listen and Choose the Letter",
+                    "questions": [
+                      { "audio": "/audio/letters/a-name.m4a", "correct": "a", "options": ["a", "b", "c"] },
+                      { "audio": "/audio/letters/b-name.m4a", "correct": "b", "options": ["a", "b", "d"] },
+                      { "audio": "/audio/letters/c-name.m4a", "correct": "c", "options": ["b", "c", "d"] },
+                      { "audio": "/audio/letters/d-name.m4a", "correct": "d", "options": ["c", "d", "e"] },
+                      { "audio": "/audio/letters/e-name.m4a", "correct": "e", "options": ["d", "e", "f"] },
+                      { "audio": "/audio/letters/f-name.m4a", "correct": "f", "options": ["e", "f", "g"] },
+                      { "audio": "/audio/letters/g-name.m4a", "correct": "g", "options": ["f", "g", "h"] },
+                      { "audio": "/audio/letters/h-name.m4a", "correct": "h", "options": ["g", "h", "i"] },
+                      { "audio": "/audio/letters/i-name.m4a", "correct": "i", "options": ["h", "i", "j"] }
+                    ]
+                  }
+                ],
+                "quiz": [
+                  { "type": "audio", "audio": "/audio/letters/a-name.m4a", "prompt": "What letter do you hear?", "correct": "a", "options": ["a", "b", "c"] },
+                  { "type": "sequence", "prompt": "Which letter comes after B?", "correct": "c", "options": ["a", "c", "d"] },
+                  { "type": "word", "audio": "/audio/words/dog.m4a", "prompt": "Which letter starts this word?", "correct": "d", "options": ["c", "d", "e"] },
+                  { "type": "audio", "audio": "/audio/letters/g-name.m4a", "prompt": "What letter do you hear?", "correct": "g", "options": ["f", "g", "h"] },
+                  { "type": "sequence", "prompt": "Which letter comes after I?", "correct": "j", "options": ["h", "i", "j"] }
+                ],
+                "printable": "/docs/alphabet-a-m.pdf"
               },
               {
                 "id": "1-2",
-                "title": "Numbers",
-                "content": "Count from 1 to 10."
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "The Alphabet - Part 2 (N-Z)",
+                "content": "Welcome back! Now we’re tackling the second half of the English alphabet: N to Z. These letters finish off our 26-letter toolkit for making words. <br><br> Just like before, each letter has a name and a sound. For example, 'N' is called 'en' and makes an 'n' sound, like in 'notebook.' You’ll hear both in the grid below. <br><br> Click each letter to listen to its name and sound. Say them out loud with me, practice makes perfect!",
+                "letters": [
+                  { "letter": "n", "word": "notebook", "image": "/slides/slide-n.png", "name": "/audio/letters/n-name.m4a", "sound": "/audio/letters/n-sound.m4a" },
+                  { "letter": "o", "word": "orange", "image": "/slides/slide-o.png", "name": "/audio/letters/o-name.m4a", "sound": "/audio/letters/o-sound.m4a" },
+                  { "letter": "p", "word": "pencil", "image": "/slides/slide-p.png", "name": "/audio/letters/p-name.m4a", "sound": "/audio/letters/p-sound.m4a" },
+                  { "letter": "q", "word": "queen", "image": "/slides/slide-q.png", "name": "/audio/letters/q-name.m4a", "sound": "/audio/letters/q-sound.m4a" },
+                  { "letter": "r", "word": "rain", "image": "/slides/slide-r.png", "name": "/audio/letters/r-name.m4a", "sound": "/audio/letters/r-sound.m4a" },
+                  { "letter": "s", "word": "sun", "image": "/slides/slide-s.png", "name": "/audio/letters/s-name.m4a", "sound": "/audio/letters/s-sound.m4a" },
+                  { "letter": "t", "word": "tea", "image": "/slides/slide-t.png", "name": "/audio/letters/t-name.m4a", "sound": "/audio/letters/t-sound.m4a" },
+                  { "letter": "u", "word": "umbrella", "image": "/slides/slide-u.png", "name": "/audio/letters/u-name.m4a", "sound": "/audio/letters/u-sound.m4a" },
+                  { "letter": "v", "word": "van", "image": "/slides/slide-v.png", "name": "/audio/letters/v-name.m4a", "sound": "/audio/letters/v-sound.m4a" },
+                  { "letter": "w", "word": "water", "image": "/slides/slide-w.png", "name": "/audio/letters/w-name.m4a", "sound": "/audio/letters/w-sound.m4a" },
+                  { "letter": "x", "word": "xylophone", "image": "/slides/slide-x.png", "name": "/audio/letters/x-name.m4a", "sound": "/audio/letters/x-sound.m4a" },
+                  { "letter": "y", "word": "yellow", "image": "/slides/slide-y.png", "name": "/audio/letters/y-name.m4a", "sound": "/audio/letters/y-sound.m4a" },
+                  { "letter": "z", "word": "zebra", "image": "/slides/slide-z.png", "name": "/audio/letters/z-name.m4a", "sound": "/audio/letters/z-sound.m4a" }
+                ],
+                "exercises": [
+                  {
+                    "type": "matching",
+                    "title": "Match Letter to Word",
+                    "pairs": [
+                      { "letter": "n", "word": "notebook" },
+                      { "letter": "o", "word": "orange" },
+                      { "letter": "p", "word": "pencil" },
+                      { "letter": "q", "word": "queen" },
+                      { "letter": "r", "word": "rain" },
+                      { "letter": "s", "word": "sun" },
+                      { "letter": "t", "word": "tea" }
+                    ]
+                  },
+                  {
+                    "type": "dragDrop",
+                    "title": "Drag Letters to Words",
+                    "items": [
+                      { "letter": "u", "word": "umbrella" },
+                      { "letter": "v", "word": "van" },
+                      { "letter": "w", "word": "water" },
+                      { "letter": "x", "word": "xylophone" },
+                      { "letter": "y", "word": "yellow" },
+                      { "letter": "z", "word": "zebra" }
+                    ]
+                  },
+                  {
+                    "type": "listenChoose",
+                    "title": "Listen and Choose the Letter",
+                    "questions": [
+                      { "audio": "/audio/letters/n-name.m4a", "correct": "n", "options": ["n", "o", "p"] },
+                      { "audio": "/audio/letters/o-name.m4a", "correct": "o", "options": ["n", "o", "q"] },
+                      { "audio": "/audio/letters/p-name.m4a", "correct": "p", "options": ["o", "p", "r"] },
+                      { "audio": "/audio/letters/q-name.m4a", "correct": "q", "options": ["p", "q", "s"] },
+                      { "audio": "/audio/letters/r-name.m4a", "correct": "r", "options": ["q", "r", "t"] },
+                      { "audio": "/audio/letters/s-name.m4a", "correct": "s", "options": ["r", "s", "u"] },
+                      { "audio": "/audio/letters/t-name.m4a", "correct": "t", "options": ["s", "t", "v"] }
+                    ]
+                  }
+                ],
+                "quiz": [
+                  { "type": "audio", "audio": "/audio/letters/n-name.m4a", "prompt": "What letter do you hear?", "correct": "n", "options": ["m", "n", "o"] },
+                  { "type": "sequence", "prompt": "Which letter comes after P?", "correct": "q", "options": ["o", "p", "q"] },
+                  { "type": "word", "audio": "/audio/words/sun.m4a", "prompt": "Which letter starts this word?", "correct": "s", "options": ["r", "s", "t"] },
+                  { "type": "audio", "audio": "/audio/letters/w-name.m4a", "prompt": "What letter do you hear?", "correct": "w", "options": ["v", "w", "x"] },
+                  { "type": "sequence", "prompt": "Which letter comes after X?", "correct": "y", "options": ["w", "x", "y"] }
+                ],
+                "printable": "/docs/alphabet-n-z.pdf"
+              },
+              {
+                "id": "1-3",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "The Alphabet - Part 3 (Vowel Sounds)",
+                "content": "Welcome to Vowel Sounds! Now that you know the alphabet, let’s zoom in on the stars of English: A, E, I, O, and U. These vowels have two main sounds—short and long—and they’re in every word you say! <br><br> For example, “cat” has a short A (ă), while “cake” has a long A (ā). You’ll hear both in the grid below; click to listen and say them out loud with me! <br><br> Ready to practice? Let’s make some noise!",
+                "letters": [
+                  { "letter": "a", "word": "apple", "image": "/slides/slide-a.PNG", "sound_short": "/audio/vowels/a-short.m4a", "sound_long": "/audio/vowels/a-long.m4a" },
+                  { "letter": "e", "word": "elephant", "image": "/slides/slide-e.png", "sound_short": "/audio/vowels/e-short.m4a", "sound_long": "/audio/vowels/e-long.m4a" },
+                  { "letter": "i", "word": "igloo", "image": "/slides/slide-i.png", "sound_short": "/audio/vowels/i-short.m4a", "sound_long": "/audio/vowels/i-long.m4a" },
+                  { "letter": "o", "word": "orange", "image": "/slides/slide-o.png", "sound_short": "/audio/vowels/o-short.m4a", "sound_long": "/audio/vowels/o-long.m4a" },
+                  { "letter": "u", "word": "umbrella", "image": "/slides/slide-u.png", "sound_short": "/audio/vowels/u-short.m4a", "sound_long": "/audio/vowels/u-long.m4a" }
+                ],
+                "exercises": [
+                  {
+                    "type": "matching",
+                    "title": "Match Vowel Sound to Word",
+                    "pairs": [
+                      { "letter": "ă", "word": "cat" },
+                      { "letter": "ā", "word": "cake" },
+                      { "letter": "ĕ", "word": "bed" },
+                      { "letter": "ē", "word": "tea" },
+                      { "letter": "ĭ", "word": "fish" }
+                    ]
+                  },
+                  {
+                    "type": "listenChoose",
+                    "title": "Listen and Choose the Vowel Sound",
+                    "questions": [
+                      { "audio": "/audio/vowels/a-short.m4a", "correct": "ă", "options": ["ă", "ā", "ĕ"] },
+                      { "audio": "/audio/vowels/e-long.m4a", "correct": "ē", "options": ["ĕ", "ē", "ī"] },
+                      { "audio": "/audio/vowels/i-short.m4a", "correct": "ĭ", "options": ["ĭ", "ī", "ŏ"] },
+                      { "audio": "/audio/vowels/o-long.m4a", "correct": "ō", "options": ["ŏ", "ō", "ŭ"] },
+                      { "audio": "/audio/vowels/u-short.m4a", "correct": "ŭ", "options": ["ŭ", "ū", "ă"] }
+                    ]
+                  }
+                ],
+                "quiz": [
+                  { "type": "audio", "audio": "/audio/vowels/a-short.m4a", "prompt": "What sound do you hear?", "correct": "ă", "options": ["ă", "ā", "ĕ"] },
+                  { "type": "audio", "audio": "/audio/vowels/e-long.m4a", "prompt": "What sound do you hear?", "correct": "ē", "options": ["ĕ", "ē", "ī"] },
+                  { "type": "audio", "audio": "/audio/vowels/i-short.m4a", "prompt": "What sound do you hear?", "correct": "ĭ", "options": ["ĭ", "ī", "ŏ"] },
+                  { "type": "audio", "audio": "/audio/vowels/o-long.m4a", "prompt": "What sound do you hear?", "correct": "ō", "options": ["ŏ", "ō", "ŭ"] },
+                  { "type": "audio", "audio": "/audio/vowels/u-short.m4a", "prompt": "What sound do you hear?", "correct": "ŭ", "options": ["ŭ", "ū", "ă"] }
+                ]
+              },
+              {
+                "id": "1-4",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "The Alphabet - Part 4 (Consonant Sounds)",
+                "content": "Learn the consonant sounds."
+              },
+              {
+                "id": "1-5",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Formal Greetings",
+                "content": "Learn basic greetings."
+              },
+              {
+                "id": "1-6",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Informal Greetings",
+                "content": "Learn informal greetings."
+              },
+              {
+                "id": "1-7",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "How Are You? and Responses",
+                "content": "Learn to ask “how are you?” and respond."
+              },
+              {
+                "id": "1-8",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "What's Your Name?",
+                "content": "Learn to ask “what's your name?”"
+              },
+              {
+                "id": "1-9",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Where Are You From?",
+                "content": "Learn to ask “where are you from?”"
+              },
+              {
+                "id": "1-10",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Introducing Others",
+                "content": "Learn to introduce others."
+              },
+              {
+                "id": "1-11",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Asking for Clarification",
+                "content": "Learn to ask for clarification."
+              },
+              {
+                "id": "1-12",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Expressing Lack of Understanding",
+                "content": "Learn to express lack of understanding."
+              },
+              {
+                "id": "1-13",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Asking for Translation",
+                "content": "Learn to ask for translation."
+              },
+              {
+                "id": "1-14",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Numbers 1-10",
+                "content": "Learn numbers 1 to 10."
+              },
+              {
+                "id": "1-15",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Numbers 11-20"
+              },
+              {
+                "id": "1-16",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Numbers by the Tens",
+                "content": "Learn the names of numbers by the tens. (20, 30, 40, 50, 60, 70, 80, 90, 100)"
+              },
+              {
+                "id": "1-17",
+                "courseId": "1",
+                "levelId": "A1-A2",
+                "moduleId": "1",
+                "title": "Practice Numbers in context",
+                "content": "Practice numbers in context."
               }
             ]
+          },
+          {
+            "id": 2,
+            "title": "Module 2: Describing Yourself and Daily Activities",
+            "lessons": [
+              {
+                "id": "2-1",
+                "title": "Age, Family, and Professions",
+                "content": "Learn about..."
+              },
+              {
+                "id": "2-2",
+                "title": "Descibing Physical Appearance",
+                "content": "Learn a list of common phrases."
+              },
+              {
+                "id": "2-3",
+                "title": "Personality Adjectives"
+              },
+              {
+                "id": "2-4",
+                "title": "Possessive Adjectives"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Module 3: Everyday Activities",
+            "lessons": []
+          },
+          {
+            "id": 4,
+            "title": "Module 4: Ordering Food and Drinks",
+            "lessons": []
+          },
+          {
+            "id": 5,
+            "title": "Module 5: Asking for Directions",
+            "lessons": []
           }
         ]
       }
